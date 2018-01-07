@@ -6,7 +6,7 @@ Node, tecnologia de base en esta app, proveera la API RESTful. Angula proveera e
 
 MongoDB sera nuestra base de datos. 
 
-## Requerimientos
+## Requerimientos######
 - [Node and npm](http://nodejs.org)
 - MongoDB: Asegurate de tener tu instancia de MonboDB configurada correctamente en `config/databases.js`
 
