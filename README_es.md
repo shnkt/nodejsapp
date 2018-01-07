@@ -10,7 +10,7 @@ MongoDB sera nuestra base de datos.
 - [Node and npm](http://nodejs.org)
 - MongoDB: Asegurate de tener tu instancia de MonboDB configurada correctamente en `config/databases.js`
 
-## Instalacion
+## Instalacion###
 
 
 1. Clonar el repositorio: `git clone git@github.com:scotch-io/node-todo`
