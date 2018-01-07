@@ -1,15 +1,29 @@
-
 {
-  "name": "node-todo",
-  "version": "0.0.1",
-  "description": "Simple todo application.",
-  "main": "server.js",
-  "author": "Scotch",
+  "name": "node-js-sample",
+  "version": "0.2.0",
+  "description": "A sample Node.js app using Express 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "mongoose": "4.10.8",
-    "express": "^4.10.8",
-    "method-override": "^2.3.10",
-    "morgan": "^1.9.0"
-  }
+    "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-sample"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Mark Pundsack",
+  "contributors": [
+    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
+  ],
+  "license": "MIT"
 }

@@ -1,31 +1,38 @@
-### Node Todo App#############
+# node-js-sample
 
-A Node app built with MongoDB and Angular. For demonstration purposes and a tutorial.
+A barebones Node.js app using [Express 4](http://expressjs.com/).
 
-Node provides the RESTful API. Angular provides the frontend and accesses the API. MongoDB stores like a hoarder.
+## Running Locally
 
-## Requirements
+Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
-- [Node and npm](http://nodejs.org)
-- MongoDB: Make sure you have your own local or remote MongoDB database URI configured in `config/database.js`
+```sh
+git clone git@github.com:heroku/node-js-sample.git # or clone your own fork
+cd node-js-sample
+npm install
+npm start
+```
 
-## Installation
+Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-1. Clone the repository: `git clone git@github.com:scotch-io/node-todo`
-2. Install the application: `npm install`
-3. Place your own MongoDB URI in `config/database.js`
-3. Start the server: `node server.js`
-4. View in browser at `http://localhost:8080`
+## Deploying to Heroku
 
-## Tutorial Series
+```
+heroku create
+git push heroku master
+heroku open
+```
 
-This repo corresponds to the Node Todo Tutorial Series on [scotch.io](http://scotch.io)
+Alternatively, you can deploy your own copy of the app using the web-based flow:
 
-Each branch represents a certain tutorial.
-- tut1-starter: [Creating a Single Page Todo App with Node and Angular](https://scotch.io/tutorials/creating-a-single-page-todo-app-with-node-and-angular)
-- tut2-organization: [Application Organization and Structure](https://scotch.io/tutorials/node-and-angular-to-do-app-application-organization-and-structure)
-- tut3-services: [Controllers and Services](https://scotch.io/tutorials/node-and-angular-to-do-app-controllers-and-services)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-Happy Todo-ing!
+## Documentation
 
-![Todo-aholic](http://i.imgur.com/ikyqgrn.png)
+For more information about using Node.js on Heroku, see these Dev Center articles:
+
+- [10 Habits of a Happy Node Hacker](https://blog.heroku.com/archives/2014/3/11/node-habits)
+- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
+- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
+- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
+- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
