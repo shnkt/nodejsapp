@@ -1,4 +1,4 @@
-###### Spanish Translation
+###### Spanish Translation########
 
 El siguiente codigo construye una app con MongoDB y Angular. Simplemente a modo de ejemplo y como un tutorial.
 
